@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Frame from 'public/Frame.png'
+import Frame from "../../../../public/Frame.png"
 import Link from 'next/link'
 import { FaRegHeart } from "react-icons/fa";
 import { FaCartFlatbed } from "react-icons/fa6";
