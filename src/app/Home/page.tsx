@@ -13,13 +13,13 @@ export default function page ()  {
         <div className="flex space-x-4">
           <ul className="flex justify-end space-x-4 max-w-screen-2xl mx-auto">
             <AiOutlineMenuUnfold/>
-            <li><Link href={'/'}>Home</Link></li>
+            <li><Link href='/'>Home</Link></li>
             <li><Link href='/About'>About</Link></li>
-            <li><Link href={'/detail'}>Detail</Link></li>
-            <li><Link href={'/login'}>Login In</Link></li>
-            <li><Link href={'/contact'}>Contact_Us</Link></li>
-            <li><Link href={'/cart'}>Cart</Link></li>
-            <li><Link href={'/signIn'}>Sing_In</Link></li>
+            <li><Link href='/detail'>Detail</Link></li>
+            <li><Link href='/login'>Login In</Link></li>
+            <li><Link href='/contact'>Contact_Us</Link></li>
+            <li><Link href='/cart'>Cart</Link></li>
+            <li><Link href='/signIn'>Sing_In</Link></li>
           </ul>
         </div>
         <div className="flex justify-center py-2">
