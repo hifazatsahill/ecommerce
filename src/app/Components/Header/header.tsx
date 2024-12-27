@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Frame from 'public/Frame.png'
 import Link from 'next/link'
 import { FaRegHeart } from "react-icons/fa";
 import { FaCartFlatbed } from "react-icons/fa6";
@@ -10,7 +11,7 @@ const header = () => {
     <header className='max-w-screen-2xl mx-auto'>
       <div className='flex justify-between bg-slate-400'>
       <div className='flex'>
-            <img src="Frame.png" width={24} height={24} alt="Frame" />
+            <Image src={Frame} width={24} height={24} alt="Frame"/>
         </div>
         <ul className='flex justify-between space-x-4'>
             <li><Link href="/">Find Store |</Link></li>
