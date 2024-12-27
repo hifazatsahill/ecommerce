@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Home/page'
-import About from '@/app/About'
+import About from '@/app/About/page'
 import Detail from './Detail';
 import Login from './Login';
 import JoinUs from './JoinUs';

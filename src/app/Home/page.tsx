@@ -14,7 +14,7 @@ export default function page ()  {
           <ul className="flex justify-end space-x-4 max-w-screen-2xl mx-auto">
             <AiOutlineMenuUnfold/>
             <li><Link href={'/'}>Home</Link></li>
-            <li><Link href={'/About'}>About</Link></li>
+            <li><Link href='/About'>About</Link></li>
             <li><Link href={'/detail'}>Detail</Link></li>
             <li><Link href={'/login'}>Login In</Link></li>
             <li><Link href={'/contact'}>Contact_Us</Link></li>
